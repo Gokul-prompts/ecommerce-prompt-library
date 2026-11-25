@@ -26,3 +26,25 @@ Each prompt in this library includes:
 ## 👨‍💻 About Me
 I approach prompts like systems: testable, measurable, and repeatable. 
 Let's connect on [LinkedIn](https://www.linkedin.com/in/gokulanathan-s-1aba7b318).
+
+---
+
+### Prompt 1: Short-form Product Description
+
+**The Prompt:**
+> Act as an expert e-commerce copywriter. Write a short-form product description for a 750ml matte black stainless steel insulated water bottle. 
+> 
+> Target audience: Gym-goers and office workers who are tired of lukewarm water and sweaty bottles on their desks.
+> 
+> Constraints:
+> - Keep it under 50 words.
+> - Use exactly 3 bullet points.
+> - Focus on the *benefits* (staying cold, no sweat) rather than just listing the features.
+
+**The Output:**
+> Ice-Cold Refreshment: Keep your water refreshingly cold throughout workouts and busy workdays.
+> No Sweaty Surfaces: Enjoy a dry bottle and a clean, sweat-free desk.
+> Style Meets Convenience: Carry 750ml of hydration in a sleek, matte black stainless steel bottle.
+
+**Why this works:**
+By assigning the role of "expert e-commerce copywriter" and defining the target audience, the AI bypassed generic feature-listing. The constraint to focus on benefits resulted in pain-point-driven copy (e.g., "No Sweaty Surfaces") which is much more effective for ad conversions.
