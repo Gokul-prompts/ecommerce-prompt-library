@@ -48,3 +48,27 @@ Let's connect on [LinkedIn](https://www.linkedin.com/in/gokulanathan-s-1aba7b318
 
 **Why this works:**
 By assigning the role of "expert e-commerce copywriter" and defining the target audience, the AI bypassed generic feature-listing. The constraint to focus on benefits resulted in pain-point-driven copy (e.g., "No Sweaty Surfaces") which is much more effective for ad conversions.
+
+---
+
+### Prompt 2: Facebook Ad Headline Variants
+
+**The Prompt:**
+> Act as a direct-response Facebook Ads copywriter. I need 5 different ad headlines for a new product: a smart notebook that instantly digitizes handwritten notes and syncs them to the cloud.
+> 
+> Target audience: College students and busy professionals who take messy handwritten notes but hate typing them up later.
+> 
+> Constraints for each headline:
+> - Keep it under 10 words.
+> - Do not use the words "revolutionary" or "game-changer".
+> - Use a different psychological trigger for each one. Label the trigger used (e.g., Curiosity, Urgency, Social Proof, Pain Point, Benefit-driven).
+
+**The Output:**
+> 1. Pain Point: Stop Retyping Your Messy Handwritten Notes.
+> 2. Benefit-driven: Write Once. Your Notes Are Digital and Searchable.
+> 3. Curiosity: What Happens When Your Notebook Types for You?
+> 4. Social Proof: Thousands of Students Ditched Note Typing. Here's Why.
+> 5. Urgency: Finals Are Coming. Digitize Your Notes Before Then.
+
+**Why this works:**
+By explicitly requiring a different psychological trigger for each headline, the prompt prevents the AI from generating repetitive variations. This approach forces the model to explore distinct marketing angles (pain points, curiosity, social proof), giving the ad buyer a diverse A/B testing pool.
