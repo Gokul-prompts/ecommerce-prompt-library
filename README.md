@@ -72,3 +72,19 @@ By assigning the role of "expert e-commerce copywriter" and defining the target 
 
 **Why this works:**
 By explicitly requiring a different psychological trigger for each headline, the prompt prevents the AI from generating repetitive variations. This approach forces the model to explore distinct marketing angles (pain points, curiosity, social proof), giving the ad buyer a diverse A/B testing pool.
+
+---
+
+### Case Study 1: Model Evaluation & The "Urgency" Hallucination
+
+**The Test:**
+After generating Facebook ad headlines (Prompt 2), a fellow marketer asked if the AI actually kept the psychological triggers distinct, or if they blurred together. I ran the prompt 3 separate times to test this.
+
+**The Finding:**
+The AI successfully kept "Curiosity" and "Benefit-driven" distinct. However, for the "Urgency" trigger, the AI consistently hallucinated fake deadlines to create urgency (e.g., *"Order by Friday"* and *"Black Friday Deal"*), even when explicitly instructed not to mix triggers. 
+
+**The Solution (Prompt Engineering):**
+Because AI associates "Urgency" with e-commerce sales, it will invent information if not constrained. To fix this, future prompts must include a strict constraint such as: *"Do not invent deadlines, sales, or fake dates. Base urgency only on the provided product features."*
+
+**Lesson Learned:**
+Prompt engineering is not just about writing instructions; it is about **model evaluation**. You must test the AI's output to catch hallucinations and refine your constraints.
