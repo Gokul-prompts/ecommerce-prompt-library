@@ -88,3 +88,21 @@ Because AI associates "Urgency" with e-commerce sales, it will invent informatio
 
 **Lesson Learned:**
 Prompt engineering is not just about writing instructions; it is about **model evaluation**. You must test the AI's output to catch hallucinations and refine your constraints.
+
+---
+
+### Prompt 3: Few-Shot Instagram Caption (Style Control)
+
+**The Prompt:**
+> Write an Instagram caption for a new organic matcha green tea powder. 
+> 
+> Here is an example of the style I want:
+> "Fuel your morning without the crash. 🍵 Just one scoop of our ceremonial-grade matcha gives you clean, jitter-free energy to crush your to-do list. #MatchaEnergy #CleanFuel"
+> 
+> Now, write a similar style caption for our new product, but focus on the taste (earthy and smooth) and the fact that it's sourced directly from Japan.
+
+**The Output:**
+> Earthy. Smooth. Straight from Japan. 🌿 One sip of our ceremonial-grade matcha, grown and sourced directly from Japanese tea farms, delivers a rich, velvety taste with zero bitterness. Pure flavor, from the source to your cup. #MatchaLovers #SourcedFromJapan
+
+**Why this works:**
+This demonstrates "Few-Shot Prompting." By providing the AI with just one high-quality example, the model immediately adopts the desired brand voice—using short, punchy sentences, specific emojis (🌿), and the exact hashtag format. Without the example, the AI would likely generate a long, generic paragraph.
